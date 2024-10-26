@@ -8,3 +8,21 @@ The components were assembled within Creo to ensure proper fit and integration w
 i.	Interference Checks: Ensuring no components obstruct the folding action.
 ii.	Alignment: Precise alignment to maintain structural integrity and performance.
 
+## Mathematical Modelling
+This project employs MATLAB simulations to analyze the suspension system's response to varying forces and conditions. By solving the governing differential equations, we examine how parameters like spring stiffness, damping coefficients, and external forces affect performance, helping to optimize ride comfort, stability, and control.
+
+System Components
+Mass (m): Represents the combined mass of the rider and bicycle frame (80 kg), influencing inertia and response to forces.
+Spring Constant (k): Set at 1000 N/m, this defines the spring's rigidity and its restoring force.
+Damping Coefficient (c): Set to 100 N·s/m, this quantifies the damper's resistance, reducing oscillations for a smoother ride.
+Governing Differential Equation
+The dynamics of the mass-spring-damper system follow Newton’s Second Law:
+
+
+Where:
+x(t): Displacement
+
+ : Acceleration
+
+F(t): External force
+This equation models how the system reacts to external forces, enabling the prediction of performance under various conditions and guiding design enhancements for rider comfort and stability.
