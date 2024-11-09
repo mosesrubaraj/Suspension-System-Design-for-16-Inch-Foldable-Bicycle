@@ -30,3 +30,43 @@ Objective: Evaluate the suspension’s ability to quickly regain stability and m
 Results: The system demonstrated efficient damping, rapidly returning to equilibrium with minimal oscillation, effectively restoring stability after disturbances and ensuring rider comfort and control.
 
 ![image](https://github.com/user-attachments/assets/10001f27-44d0-411d-b4b1-2d93555b2b4c)
+
+## Scenario 2: Damped Sinusoidal Force
+Description: A damped sinusoidal force simulates continuous road vibrations.
+
+Objective: Assess the suspension’s ability to absorb and dissipate energy, minimizing vibration impact for a smooth ride.
+
+Results: The system effectively managed continuous vibrations, maintaining stability and rider comfort over extended dynamic conditions, showcasing efficient energy absorption and damping.
+
+![image](https://github.com/user-attachments/assets/fa6df597-fe43-44d0-bc16-af289eb9d10a)
+
+## Scenario 3: Impulse Force
+Description: A 50 N impulse applied at t=1 second.
+
+Objective: Assess maximum displacement and time to stability, focusing on shock absorption and stability recovery.
+
+Results: The system managed the impulse with minimal peak displacement and rapid stabilization, demonstrating strong shock absorption and ensuring rider comfort and control in dynamic situations.
+
+![image](https://github.com/user-attachments/assets/3f9c5643-3d1e-4a53-8610-e3194febd78d)
+
+## Scenario 4: Random Force
+Description: Simulates unpredictable terrain with random force inputs.
+
+Objective: Test stability and control under unpredictable forces, ensuring reliable performance in real-world conditions.
+
+Results: The suspension system maintained stability and control, effectively managing random fluctuations. This demonstrates its capability to deliver a smooth, dependable ride even on varied terrains.
+
+![image](https://github.com/user-attachments/assets/33c2c76f-8dff-434e-938b-e3801919b9cc)
+
+## Scenario 5: Higher Damping
+Description: Damping coefficient increased to 200 N·s/m.
+
+Objective: Assess the impact of higher damping on oscillation control and stability.
+
+Results: Increased damping reduced oscillation amplitude but slowed system response, indicating a trade-off between stability and speed of recovery. Enhanced damping improves stability but may affect rider comfort by prolonging balance restoration.
+
+![image](https://github.com/user-attachments/assets/4ed1c55b-069c-4f5f-89ad-6411361b4acb)
+
+
+
+
