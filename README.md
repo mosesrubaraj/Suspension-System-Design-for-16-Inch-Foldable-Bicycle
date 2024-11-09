@@ -18,11 +18,15 @@ Damping Coefficient (c): Set to 100 N·s/m, this quantifies the damper's resista
 Governing Differential Equation
 The dynamics of the mass-spring-damper system follow Newton’s Second Law:
 
+![formula](https://github.com/user-attachments/assets/68534b72-a21d-402c-93af-8292cb6d5130)
 
-Where:
-x(t): Displacement
-
- : Acceleration
-
-F(t): External force
 This equation models how the system reacts to external forces, enabling the prediction of performance under various conditions and guiding design enhancements for rider comfort and stability.
+
+## Scenario 1: Step Input Force
+Description: A 50 N step force is applied at t=1 second to test stability.
+
+Objective: Evaluate the suspension’s ability to quickly regain stability and minimize oscillations after sudden shocks, ensuring a stable, comfortable ride.
+
+Results: The system demonstrated efficient damping, rapidly returning to equilibrium with minimal oscillation, effectively restoring stability after disturbances and ensuring rider comfort and control.
+
+![image](https://github.com/user-attachments/assets/10001f27-44d0-411d-b4b1-2d93555b2b4c)
