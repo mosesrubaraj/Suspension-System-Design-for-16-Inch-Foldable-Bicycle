@@ -154,13 +154,13 @@ Road impact: 500 N vertically at front fork dropouts
 ![image](https://github.com/user-attachments/assets/0ca645fc-bf3b-4913-a317-c4e50b1f98d8)
 
 ## Result Analysis
-### 6.1 Introduction
+### Introduction
 This chapter presents the results of MATLAB dynamic simulations and initial ANSYS structural analysis, focusing on the suspension system's performance under different conditions. The key metrics include displacement, velocity, stress distribution, and structural integrity, providing insights into potential areas for improvement to enhance system performance and durability.
 
-### 6.2 Dynamic Simulation Results
+### Dynamic Simulation Results
 The MATLAB simulations assess the suspension's response to various forces and operating scenarios, focusing on displacement, velocity, and stability. These results help identify the system's ability to absorb shocks and maintain control, ensuring a smooth ride in different conditions.
 
-#### 6.2.1 Displacement and Velocity Analysis
+#### Displacement and Velocity Analysis
 The displacement and velocity analysis evaluates the suspension’s ability to absorb shocks and maintain stability.
 
 Step Input Force: The system rapidly stabilized after the force, showing effective impact absorption and quick recovery to equilibrium.
@@ -168,19 +168,19 @@ Damped Sinusoidal Force: The system maintained stable displacement and velocity,
 Impulse Force: The system absorbed the shock efficiently and quickly returned to stability with minimal oscillation.
 Random Force: The system stabilized under random inputs, showing adaptability to unpredictable terrain.
 
-#### 6.2.2 Effect of Damping and Spring Constants
+#### Effect of Damping and Spring Constants
 Different damping coefficients and spring constants were tested to analyze their impact on ride comfort, stability, and responsiveness.
 
 Higher Damping: Increased damping reduced oscillations but slowed response times. A balance between vibration reduction and system agility is necessary.
 Lower Spring Constant: Reduced spring stiffness improved comfort but compromised stability. Additional stabilization mechanisms are required for control.
 
-#### 6.2.3 Rider Mass Impact
+#### Rider Mass Impact
 Simulations explored the effect of rider mass on system performance, showing that lighter riders improved response times and stability, while heavier riders increased inertia, slowing system response and requiring higher damping for control.
 
 Light Rider: Faster response and improved stability due to reduced inertia, though damping adjustments may be needed for optimal performance.
 Heavy Rider: Increased inertia required higher damping to maintain stability and ride comfort.
 
-#### 6.2.4 Nonlinear Damping and Temperature Effects
+#### Nonlinear Damping and Temperature Effects
 Nonlinear damping and temperature fluctuations were investigated to assess their impact on shock absorption and system stability.
 
 Nonlinear Damping: Enhanced adaptability to various forces, improving comfort and control across different terrains.
@@ -188,12 +188,12 @@ Road Profile: The system efficiently handled bumps and potholes, providing a com
 Cold Conditions: Increased rigidity improved stability but reduced shock absorption, compromising comfort.
 Hot Conditions: Increased flexibility improved comfort but might compromise stability, requiring adjustments to maintain control.
 
-### 6.3 Structural Analysis in ANSYS
+### Structural Analysis in ANSYS
 The initial structural analysis in ANSYS assessed stress distribution and the suspension's structural integrity under operational loads, ensuring its durability and reliability in real-world settings.
 
-#### 6.3.1 Mesh Quality and Validation
+#### Mesh Quality and Validation
 The mesh was refined in critical areas to ensure accurate stress and strain measurements, providing a solid basis for structural analysis.
 
-### 6.4 Conclusion
+### Conclusion
 The MATLAB simulations demonstrated the suspension system's effective shock absorption and stability under varying conditions. The ANSYS structural analysis validated the system’s design, confirming its suitability for real-world use. Combined, these findings provide a strong foundation for further refinement of the suspension system for urban cycling applications.
 
